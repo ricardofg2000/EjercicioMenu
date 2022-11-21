@@ -10,7 +10,7 @@ public class EjercicioMenu {
 		String auxText;
 
 		do {
-			Util.subrayar("LISTADO DE EJERCICIOS PROGRAMACIÓN", "=");
+			Util.subrayar("\n\n\n\n\n\n\n\n\nLISTADO DE EJERCICIOS PROGRAMACIÓN", "=");
 			Util.escribir("");
 			mostrarMenu();
 			opc = Util.leerInt("Introduzca una opción: ");
@@ -18,6 +18,7 @@ public class EjercicioMenu {
 			case 1:
 				mostrarMenuCond();
 				menuCond();
+				break;
 			case 2:
 				mostrarMenuIter();
 				menuIter();
